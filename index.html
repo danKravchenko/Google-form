@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleshet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Party Invite</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section-image">
+
+        </div>
+
+        <div class="section-info">
+            <h1 style="margin-bottom: 0;">Party Invite</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis sem odio. Sed commodo vestibulum
+                leo, sit amet tempus odio consectetur in. </p>
+            <h3>* Обязательное поле</h3>
+        </div>
+
+        <form action="#">
+            <div class="section">
+                <h3>What is your name?</h3>
+                <input type="text" placeholder="Ваш ответ">
+            </div>
+
+            <div class="section">
+                <h3 class="required-item">Can you attend?</h3>
+                <ul>
+                    <li>
+                        <input type="radio" value="yes" id="attend-yes" name="attend-party" />
+                        <span class="radio-box"></span>
+                        <label for="attend-yes" style="bottom: 8px; right: 14px;">Yes, I'll be there</label>
+                    </li>
+                    <li>
+                        <input type="radio" value="no" id="attend-no" name="attend-party" />
+                        <span class="radio-box"></span>
+                        <label for="attend-no" style="bottom: 8px; right: 14px;">Sorry, can't make it</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>How many of you are attending?</h3>
+                <input type="text" placeholder="Ваш ответ">
+            </div>
+
+            <div class="section">
+                <h3>What will you be bringing?</h3>
+                <h5>Let us know what kind of dish(es) you'll be bringing</h5>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="dishes-list" id="dish-1">
+                        <span class="check-box"></span>
+                        <label for="dish-1">Mains</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="dishes-list" id="dish-2">
+                        <span class="check-box"></span>
+                        <label for="dish-2">Salad</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="dishes-list" id="dish-3">
+                        <span class="check-box"></span>
+                        <label for="dish-3">Dessert</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="dishes-list" id="dish-4">
+                        <span class="check-box"></span>
+                        <label for="dish-4">Drinks</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="dishes-list" id="dish-5">
+                        <span class="check-box"></span>
+                        <label for="dish-5">Sides/Appetizers</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="dishes-list" id="dish-6">
+                        <span class="check-box"></span>
+                        <label for="dish-6">Другое:</label>
+                        <input type="text" name="dishes-list" id="dish-other">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>Do you have any allergies or dietary restrictions?</h3>
+                <input type="text" placeholder="Ваш ответ">
+            </div>
+
+
+            <div class="section">
+                <h3>What is your email address?</h3>
+                <input type="text" placeholder="Ваш ответ">
+            </div>
+            <button class="btn-submit">Отправить</button>
+        </form>
+        <footer>
+            <p>Никогда не указывайте пароли в Google форме.</p>
+            <div class="feedback">
+                <p style="display: inline;">Эту форму создано за пределами вашего домена.</p>
+                <a href="#">Сообщить о нарушении</a>
+                <a href="#">Условия предоставления услуг</a>
+                <br>
+                <a href="#" style="margin-top: 100px;">Политика конфиденциальности</a>
+                <br>
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg"
+                    class="logo-element-1" alt="Google">
+                <span class="logo-element-2">Форми</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
